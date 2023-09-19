@@ -1,13 +1,26 @@
 .page-container {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+
+
 }
-.recipe-links {
-    color: brown;
-    font-weight: 900;
+.navigation-section {
+    display: flex;
+    background-color: blueviolet;
+    padding: 20px;
+    width: auto;
+
 }
-h1 {
+.navigation-section > div {
+    justify-content: space-between;
+    background-color: rgb(235, 232, 238);
+    margin: auto;
+}
+
+.page-container > h1 {
     font-style: italic;
+    align-self: center;
 }
 .ingredients {
     color: white;
