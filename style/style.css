@@ -17,6 +17,11 @@
     background-color: rgb(235, 232, 238);
     margin: auto;
 }
+.navigation-section > div > a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
 
 .page-container > h1 {
     font-style: italic;
